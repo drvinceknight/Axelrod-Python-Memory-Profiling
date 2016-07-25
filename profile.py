@@ -19,40 +19,40 @@ def main():
     # Demo strategies
     # Turns: 200
     # Repetitions: 100
-    read(filename)
     big_read(filename)
+    read(filename)
 
     filename = "data/basic_200_100.csv"
     print(filename)
     # Basic strategies
     # Turns: 200
     # Repetitions: 100
-    read(filename)
     big_read(filename)
+    read(filename)
 
     filename = "data/full_50_5.csv"
     print(filename)
     # Ordinary strategies
     # Turns: 50
     # Repetitions: 5
-    read(filename)
     big_read(filename)
+    read(filename)
 
     filename = "data/full_50_10.csv"
     print(filename)
     # Ordinary strategies
     # Turns: 50
     # Repetitions: 10
-    read(filename)
     big_read(filename)
+    read(filename)
 
     filename = "data/full_50_20.csv"
     print(filename)
     # Ordinary strategies
     # Turns: 50
     # Repetitions: 20
-    read(filename)
     big_read(filename)
+    read(filename)
 
 if __name__ == '__main__':
     main()
