@@ -1,0 +1,49 @@
+Filename: profile.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    13  25.06250 MiB   0.00000 MiB   @profile(precision=precision, stream=fp)
+    14                             def main():
+    15                                 # Hard coding for profiler
+    16                             
+    17  25.07422 MiB   0.01172 MiB       filename = "data/demo_200_100.csv"
+    18  25.07422 MiB   0.00000 MiB       print(filename)
+    19                                 # Demo strategies
+    20                                 # Turns: 200
+    21                                 # Repetitions: 100
+    22  27.80469 MiB   2.73047 MiB       read(filename)
+    23  27.80469 MiB   0.00000 MiB       big_read(filename)
+    24                             
+    25  27.80469 MiB   0.00000 MiB       filename = "data/basic_200_100.csv"
+    26  27.80469 MiB   0.00000 MiB       print(filename)
+    27                                 # Basic strategies
+    28                                 # Turns: 200
+    29                                 # Repetitions: 100
+    30  31.79297 MiB   3.98828 MiB       read(filename)
+    31  31.60938 MiB  -0.18359 MiB       big_read(filename)
+    32                             
+    33  31.60938 MiB   0.00000 MiB       filename = "data/full_50_5.csv"
+    34  31.60938 MiB   0.00000 MiB       print(filename)
+    35                                 # Ordinary strategies
+    36                                 # Turns: 50
+    37                                 # Repetitions: 5
+    38  42.25391 MiB  10.64453 MiB       read(filename)
+    39  35.78516 MiB  -6.46875 MiB       big_read(filename)
+    40                             
+    41  35.78516 MiB   0.00000 MiB       filename = "data/full_50_10.csv"
+    42  35.78516 MiB   0.00000 MiB       print(filename)
+    43                                 # Ordinary strategies
+    44                                 # Turns: 50
+    45                                 # Repetitions: 10
+    46  52.45312 MiB  16.66797 MiB       read(filename)
+    47  51.07422 MiB  -1.37891 MiB       big_read(filename)
+    48                             
+    49  51.07422 MiB   0.00000 MiB       filename = "data/full_50_20.csv"
+    50  51.07422 MiB   0.00000 MiB       print(filename)
+    51                                 # Ordinary strategies
+    52                                 # Turns: 50
+    53                                 # Repetitions: 20
+    54  72.91016 MiB  21.83594 MiB       read(filename)
+    55  72.78516 MiB  -0.12500 MiB       big_read(filename)
+
+
