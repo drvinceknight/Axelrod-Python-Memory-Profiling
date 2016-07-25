@@ -14,7 +14,7 @@ fp=open('memory_profiler.log','w+')
 def main():
     # Hard coding for profiler
 
-    filename = "demo_200_100.csv"
+    filename = "data/demo_200_100.csv"
     print(filename)
     # Demo strategies
     # Turns: 200
@@ -22,7 +22,7 @@ def main():
     read(filename)
     big_read(filename)
 
-    filename = "basic_200_100.csv"
+    filename = "data/basic_200_100.csv"
     print(filename)
     # Basic strategies
     # Turns: 200
@@ -30,7 +30,7 @@ def main():
     read(filename)
     big_read(filename)
 
-    filename = "full_50_5.csv"
+    filename = "data/full_50_5.csv"
     print(filename)
     # Ordinary strategies
     # Turns: 50
@@ -38,7 +38,7 @@ def main():
     read(filename)
     big_read(filename)
 
-    filename = "full_50_10.csv"
+    filename = "data/full_50_10.csv"
     print(filename)
     # Ordinary strategies
     # Turns: 50
@@ -46,7 +46,7 @@ def main():
     read(filename)
     big_read(filename)
 
-    filename = "full_50_20.csv"
+    filename = "data/full_50_20.csv"
     print(filename)
     # Ordinary strategies
     # Turns: 50

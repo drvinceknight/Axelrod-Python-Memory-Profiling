@@ -21,10 +21,10 @@ if __name__ == '__main__':
     demo_players = [s() for s in axl.demo_strategies]
     basic_players = [s() for s in axl.basic_strategies]
     full_players = [s() for s in axl.ordinary_strategies]
-    for filename, players, turns, repetitions in [("demo_200_100.csv", demo_players, 200, 100),
-                                                  ("basic_200_100.csv", basic_players, 200, 100),
-                                                  ("full_50_5.csv", full_players, 50, 5),
-                                                  ("full_50_10.csv", full_players, 50, 10),
-                                                  ("full_50_20.csv", full_players, 50, 20)]:
+    for filename, players, turns, repetitions in [("data/demo_200_100.csv", demo_players, 200, 100),
+                                                  ("data/basic_200_100.csv", basic_players, 200, 100),
+                                                  ("data/full_50_5.csv", full_players, 50, 5),
+                                                  ("data/full_50_10.csv", full_players, 50, 10),
+                                                  ("data/full_50_20.csv", full_players, 50, 20)]:
         print(filename, turns, repetitions)
         run_tournament(filename, players, turns=turns, repetitions=repetitions)
