@@ -2,48 +2,48 @@ Filename: profile.py
 
 Line #    Mem usage    Increment   Line Contents
 ================================================
-    13  25.06250 MiB   0.00000 MiB   @profile(precision=precision, stream=fp)
+    13  25.05859 MiB   0.00000 MiB   @profile(precision=precision, stream=fp)
     14                             def main():
     15                                 # Hard coding for profiler
-    16                             
-    17  25.07422 MiB   0.01172 MiB       filename = "data/demo_200_100.csv"
-    18  25.07422 MiB   0.00000 MiB       print(filename)
+    16
+    17  25.06641 MiB   0.00781 MiB       filename = "data/demo_200_100.csv"
+    18  25.06641 MiB   0.00000 MiB       print(filename)
     19                                 # Demo strategies
     20                                 # Turns: 200
     21                                 # Repetitions: 100
-    22  27.80469 MiB   2.73047 MiB       read(filename)
-    23  27.80469 MiB   0.00000 MiB       big_read(filename)
-    24                             
-    25  27.80469 MiB   0.00000 MiB       filename = "data/basic_200_100.csv"
-    26  27.80469 MiB   0.00000 MiB       print(filename)
+    22  25.56641 MiB   0.50000 MiB       big_read(filename)
+    23  27.32812 MiB   1.76172 MiB       read(filename)
+    24
+    25  27.32812 MiB   0.00000 MiB       filename = "data/basic_200_100.csv"
+    26  27.32812 MiB   0.00000 MiB       print(filename)
     27                                 # Basic strategies
     28                                 # Turns: 200
     29                                 # Repetitions: 100
-    30  31.79297 MiB   3.98828 MiB       read(filename)
-    31  31.60938 MiB  -0.18359 MiB       big_read(filename)
-    32                             
-    33  31.60938 MiB   0.00000 MiB       filename = "data/full_50_5.csv"
-    34  31.60938 MiB   0.00000 MiB       print(filename)
+    30  27.41406 MiB   0.08594 MiB       big_read(filename)
+    31  30.54688 MiB   3.13281 MiB       read(filename)
+    32
+    33  30.54688 MiB   0.00000 MiB       filename = "data/full_50_5.csv"
+    34  30.54688 MiB   0.00000 MiB       print(filename)
     35                                 # Ordinary strategies
     36                                 # Turns: 50
     37                                 # Repetitions: 5
-    38  42.25391 MiB  10.64453 MiB       read(filename)
-    39  35.78516 MiB  -6.46875 MiB       big_read(filename)
-    40                             
-    41  35.78516 MiB   0.00000 MiB       filename = "data/full_50_10.csv"
-    42  35.78516 MiB   0.00000 MiB       print(filename)
+    38  30.40625 MiB  -0.14062 MiB       big_read(filename)
+    39  41.11719 MiB  10.71094 MiB       read(filename)
+    40
+    41  41.11719 MiB   0.00000 MiB       filename = "data/full_50_10.csv"
+    42  41.11719 MiB   0.00000 MiB       print(filename)
     43                                 # Ordinary strategies
     44                                 # Turns: 50
     45                                 # Repetitions: 10
-    46  52.45312 MiB  16.66797 MiB       read(filename)
-    47  51.07422 MiB  -1.37891 MiB       big_read(filename)
-    48                             
-    49  51.07422 MiB   0.00000 MiB       filename = "data/full_50_20.csv"
-    50  51.07422 MiB   0.00000 MiB       print(filename)
+    46  37.62891 MiB  -3.48828 MiB       big_read(filename)
+    47  51.56250 MiB  13.93359 MiB       read(filename)
+    48
+    49  51.56250 MiB   0.00000 MiB       filename = "data/full_50_20.csv"
+    50  51.56250 MiB   0.00000 MiB       print(filename)
     51                                 # Ordinary strategies
     52                                 # Turns: 50
     53                                 # Repetitions: 20
-    54  72.91016 MiB  21.83594 MiB       read(filename)
-    55  72.78516 MiB  -0.12500 MiB       big_read(filename)
+    54  47.46484 MiB  -4.09766 MiB       big_read(filename)
+    55  70.05859 MiB  22.59375 MiB       read(filename)
 
 
