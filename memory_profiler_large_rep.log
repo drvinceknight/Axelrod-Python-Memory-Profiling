@@ -1,0 +1,12 @@
+Filename: profile_large_rep.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     7  25.07031 MiB   0.00000 MiB   @profile(precision=precision, stream=fp)
+     8                             def main():
+     9  25.08984 MiB   0.01953 MiB       players = [s() for s in axl.basic_strategies]
+    10  25.08984 MiB   0.00000 MiB       tournament = axl.Tournament(players, turns=100, repetitions=100000)
+    11  25.72266 MiB   0.63281 MiB       tournament.play(filename="test.out", build_results=False, processes=0)
+    12 872.59766 MiB 846.87500 MiB       results = axl.ResultSetFromFile("test.out")
+
+
